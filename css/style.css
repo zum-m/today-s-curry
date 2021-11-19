@@ -1,0 +1,199 @@
+@import "bourbon";
+
+/* Demo styling */
+
+.title{
+	text-align: center;
+}
+
+body {
+  background-color: rgb(248, 210, 185);
+  box-sizing: border-box;
+  font-family: "Futura PT", "Futura", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Buttons at the center */
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -259px;
+  margin-left: -259px;
+  text-align: center;
+}
+
+/* General styling for the links */
+
+a {
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  margin: 20px auto;
+}
+
+img{
+  width: 500px;
+}
+
+.res-c{
+  width: 1390px;
+  text-align: center;
+  margin: 200px aute;
+  padding-top: 200px;
+}
+
+/* BUTTON 1 */
+
+.btn, .btn:link, .btn:visited {
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(236, 62, 62);
+  background-color: rgba(190, 71, 71, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn:hover, .btn:link:hover, .btn:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
+/* BUTTON 2 */
+
+.btn2, .btn2:link, .btn2:visited {
+  color: #0570db;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 255);
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn2:hover, .btn2:link:hover, .btn2:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
+
+
+/* BUTTON 3 */
+
+
+.btn3, .btn3:link, .btn3:visited {
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn3:hover, .btn3:link:hover, .btn3:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
+
+/* button4 */
+
+
+.btn4, .btn4:link, .btn4:visited {
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn4:hover, .btn4:link:hover, .btn4:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
+/* button5*/
+
+
+.btn5, .btn5:link, .btn5:visited {
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn5:hover, .btn5:link:hover, .btn5:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
+
+/* butto6 */
+
+
+.btn6, .btn6:link, .btn6:visited {
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb;
+  border: 0.2em solid #2c3e50;
+  padding: 0.8em;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  
+}
+.btn6:hover, .btn6:link:hover, .btn6:visited :hover {
+  box-shadow: 0 4em 0 0 #2c3e50 inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #fff;
+}
+
