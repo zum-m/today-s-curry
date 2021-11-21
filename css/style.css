@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   font-family: "Futura PT", "Futura", sans-serif;
   -webkit-font-smoothing: antialiased;
-}
+flex-direction: column;}
 
 /* Buttons at the center */
 
@@ -40,9 +40,14 @@ img{
 
 .res-c{
   width: 1390px;
-  text-align: center;
+  /* text-align: center; */
   margin: 200px aute;
   padding-top: 200px;
+  align-items: center;
+}
+
+#result{
+  align-items: center;
 }
 
 /* BUTTON 1 */
@@ -197,3 +202,7 @@ img{
   color: #fff;
 }
 
+
+.gazou{
+  align-items: center;
+}

@@ -79,3 +79,11 @@ $('#btn5').on('click', function(){
   
 
 });
+
+if(randomNum ===1){
+    randomNum = 'グー';
+}else if (randomNum ===2){
+    randomNum = 'チョキ';
+}else if (randomNum ===3){
+    randomNum = 'パー';
+}
